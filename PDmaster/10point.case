@@ -1,0 +1,37 @@
+FORMAT
+type:  ensight gold
+GEOMETRY
+model:                     point.geo*       change_coords_only
+VARIABLE
+scalar per node:           Damage point.Damage*
+scalar per node:           Displacement-X point.Displacement-X*
+scalar per node:           Displacement-Y point.Displacement-Y*
+scalar per node:           Velocity-X point.Velocity-X*
+scalar per node:           Velocity-Y point.Velocity-Y*
+scalar per node:           Pforce-X point.Pforce-X*
+scalar per node:           Pforce-Y point.Pforce-Y*
+scalar per node:           Cforce-X point.Cforce-X*
+scalar per node:           Cforce-Y point.Cforce-Y*
+scalar per node:           Bforce-X point.Bforce-X*
+scalar per node:           Bforce-Y point.Bforce-Y*
+scalar per node:           Force-X point.Force-X*
+scalar per node:           Force-Y point.Force-Y*
+TIME
+time set:                  1
+number of steps:           10
+filename start number:     0
+filename increment:        1
+time values:           
+           1
+           2
+           3
+           4
+           5
+           6
+           7
+           8
+           9
+          10
+
+
+ 

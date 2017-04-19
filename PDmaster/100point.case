@@ -1,0 +1,124 @@
+FORMAT
+type:  ensight gold
+GEOMETRY
+model:                     point.geo*       change_coords_only
+VARIABLE
+scalar per node:           Damage point.Damage*
+scalar per node:           Displacement-X point.Displacement-X*
+scalar per node:           Displacement-Y point.Displacement-Y*
+scalar per node:           Velocity-X point.Velocity-X*
+scalar per node:           Velocity-Y point.Velocity-Y*
+scalar per node:           Pforce-X point.Pforce-X*
+scalar per node:           Pforce-Y point.Pforce-Y*
+scalar per node:           Cforce-X point.Cforce-X*
+scalar per node:           Cforce-Y point.Cforce-Y*
+scalar per node:           Bforce-X point.Bforce-X*
+scalar per node:           Bforce-Y point.Bforce-Y*
+scalar per node:           Force-X point.Force-X*
+scalar per node:           Force-Y point.Force-Y*
+TIME
+time set:                  1
+number of steps:           100
+filename start number:     0
+filename increment:        1
+time values:           
+          01
+          02
+          03
+          04
+          05
+          06
+          07
+          08
+          09
+          10
+          11
+          12
+          13
+          14
+          15
+          16
+          17
+          18
+          19
+          20
+          21
+          22 
+          23
+          24
+          25
+          26
+          27
+          28
+          29
+          30
+          31
+          32
+          33
+          34
+          35
+          36
+          37
+          38
+          39
+          40
+          41
+          42
+          43
+          44
+          45
+          46
+          47
+          48
+          49
+          50
+          51
+          52
+          53
+          54
+          55
+          56
+          57
+          58
+          59
+          60
+          61
+          62
+          63
+          64
+          65
+          66
+          67
+          68
+          69
+          70
+          71
+          72
+          73
+          74
+          75
+          76
+          77
+          78
+          79
+          80
+          81
+          82
+          83
+          84
+          85
+          86
+          87
+          88
+          89
+          90
+          91
+          92
+          93
+          94
+          95
+          96
+          97
+          98
+          99
+         100
